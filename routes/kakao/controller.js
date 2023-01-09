@@ -41,7 +41,6 @@ exports.GetUserData = async (req, res) => {
             url: `${GetUserDataURL}`,
             method: `get`,
             headers: { "Authorization": `${BearerToken}` }
-
         })
 
         const total_data = userdata.data

@@ -103,9 +103,9 @@ exports.Logout = async (req, res) => {
         const logout = await axios({
             url: `${LogOutUri}`,
             method: 'post',
-            data : {
-              next : `https://jh.jp.ngrok.io/facebook/logout`,
-              access_token : `${token[0].access_token}`  
+            data: {
+                next: `https://jh.jp.ngrok.io/facebook/logout`,
+                access_token: `${token[0].access_token}`
             },
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"

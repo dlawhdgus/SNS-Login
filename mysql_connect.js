@@ -3,7 +3,7 @@ const config = require('./config.json')
 const con = mysql.createConnection(config.mysql)
 
 const connection = con.connect((e) => {
-    if(e) throw e
+    if (e) throw e
     else console.log('Mysql Connected')
 })
 
