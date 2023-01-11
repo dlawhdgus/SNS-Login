@@ -90,7 +90,7 @@ exports.GetUSerdata = async (req, res) => {
 
 exports.LogOut = async (req, res) => {
     try {
-        const LogOutUri = `https://www.facebook.com/logout.php?next=https://jh.jp.ngrok.io/facebook/logout&access_token=${token[0].access_token}`
+        const LogOutUri = `https://www.facebook.com/logout.php?next=https://jh.jp.ngrok.io/instagram/logout&access_token=${token[0].access_token}`
         const logout = await axios({
             url: LogOutUri,
             method: 'post'
