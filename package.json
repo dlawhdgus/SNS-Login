@@ -1,8 +1,11 @@
 {
   "name": "kakao_sync",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "npm의 기능중 하나인 passport를 이용하지 않고 kakao developer공식문서를 이용하여 구현한 sns로그인 어플리케이션",
+  "main": "app.js",
+  "repository": {
+    "url": "https://github.com/dlawhdgus/SNS-Login.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
